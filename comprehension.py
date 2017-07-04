@@ -6,7 +6,7 @@ print('Hello! What is your name?') # print the following str to console
 myName = input() # ask the user for an input, this input will the value of the 'myName' var
 
 number = random.randint(1, 20) # pick a random int between 1 and 20, this int will be under the name 'number'
-print('Well, ' + myName + ', I am thinking of a number between 1 and 20.')#
+print('Well, ' + myName + ', I am thinking of a number between 1 and 20.') # print 'myName' var between two pieces of string
 
 while guessesTaken < 6: # initialize a while loop
     print('Take a guess.') # print the following str to console
@@ -27,9 +27,9 @@ while guessesTaken < 6: # initialize a while loop
 if guess == number: # initialize an if statment
     guessesTaken = str(guessesTaken) # convert the guessesTaken var into a string
     print('Good job, ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!')
-    #
+    # print 'myName' var between two pieces of string
 
 if guess != number: # initialize an if statment
     number = str(number) # convert the 'number' var into a string
     print('Nope. The number I was thinking of was ' + number)
-    # print the following statement to console, 
+    # print the following statement to console,
